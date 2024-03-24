@@ -8,13 +8,13 @@ import Register from "../views/Register.vue";
 import Scam from "../views/Scam.vue";
 
 const routes = [
-  { path: "/", name: "Main", component: Main },
-  { path: "/scam-detector", name: "Home", component: Home, props: true }, // Define route prop for Home
-  { path: "/report", name: "Report", component: Report },
-  { path: "/login", name: "Login", component: Login },
-  { path: "/register", name: "Register", component: Register },
+  { path: "/isitscam/", name: "Main", component: Main },
+  { path: "/isitscam/scam-detector", name: "Home", component: Home, props: true }, // Define route prop for Home
+  { path: "/isitscam/report", name: "Report", component: Report },
+  { path: "/isitscam/login", name: "Login", component: Login },
+  { path: "/isitscam/register", name: "Register", component: Register },
   {
-    path: "/verylegit.link/Ea@:5HQWRN=G=P~ZS903malwarebotnet.pdf.exe",
+    path: "/isitscam/verylegit.link/Ea@:5HQWRN=G=P~ZS903malwarebotnet.pdf.exe",
     name: "Downloading Viruses...",
     component: Scam,
   },
