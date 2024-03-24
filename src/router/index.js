@@ -1,6 +1,6 @@
 // Routes
 import { createWebHistory, createRouter } from "vue-router";
-import Home from "../views/scam-detector.vue";
+import Home from "../views/Home.vue";
 import Main from "../views/Main.vue";
 import Report from "../views/Report.vue";
 import Login from "../views/Login.vue";
