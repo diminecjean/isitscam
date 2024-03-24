@@ -8,7 +8,7 @@
     <template #default="{ isShowMenu }">
       <fwb-navbar-collapse :is-show-menu="isShowMenu">
         <fwb-navbar-link class="custom-link" link=" /report"> What is Scam? </fwb-navbar-link>
-        <fwb-navbar-link class="custom-link" link="/home"> Scam Detection </fwb-navbar-link>
+        <fwb-navbar-link class="custom-link" link="/scam-detector"> Scam Detection </fwb-navbar-link>
         <fwb-navbar-link class="custom-link" link="/report"> Discover </fwb-navbar-link>
       </fwb-navbar-collapse>
 

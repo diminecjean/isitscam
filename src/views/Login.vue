@@ -67,7 +67,7 @@
                   >Forgot password?</a
                 >
               </div>
-              <a href="/home"
+              <a href="/scam-detector"
                 ><button
                   type="submit"
                   class="w-full text-black outline-1 outline-slate-800 "

@@ -1,6 +1,6 @@
 // Routes
 import { createWebHistory, createRouter } from "vue-router";
-import Home from "../views/Home.vue";
+import Home from "../views/scam-detector.vue";
 import Main from "../views/Main.vue";
 import Report from "../views/Report.vue";
 import Login from "../views/Login.vue";
@@ -9,7 +9,7 @@ import Scam from "../views/Scam.vue";
 
 const routes = [
   { path: "/", name: "Main", component: Main },
-  { path: "/home", name: "Home", component: Home, props: true }, // Define route prop for Home
+  { path: "/scam-detector", name: "Home", component: Home, props: true }, // Define route prop for Home
   { path: "/report", name: "Report", component: Report },
   { path: "/login", name: "Login", component: Login },
   { path: "/register", name: "Register", component: Register },
