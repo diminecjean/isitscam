@@ -25,7 +25,7 @@
         <p class="text-black">This is very urgent!</p>
       </div>
     </div>
-  
+
     <div class="flex flex-col p-8">
       <div class="flex flex-row p-8">
         <p class="text-3xl">isit<span class="font-bold text-red">scam</span>?</p>
