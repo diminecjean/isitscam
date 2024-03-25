@@ -1,15 +1,15 @@
 <template>
   <fwb-navbar class="custom-navbar absolute top-0 w-full" :style="{ backgroundColor: primaryColor }">
     <template #logo>
-      <a href="/">
+      <a href="/isitscam/">
         <logo :fontSize="24" />
       </a>
     </template>
     <template #default="{ isShowMenu }">
       <fwb-navbar-collapse :is-show-menu="isShowMenu">
-        <fwb-navbar-link class="custom-link" link=" /report"> What is Scam? </fwb-navbar-link>
-        <fwb-navbar-link class="custom-link" link="/scam-detector"> Scam Detection </fwb-navbar-link>
-        <fwb-navbar-link class="custom-link" link="/report"> Discover </fwb-navbar-link>
+        <fwb-navbar-link class="custom-link" link="/isitscam/report"> What is Scam? </fwb-navbar-link>
+        <fwb-navbar-link class="custom-link" link="/isitscam/scam-detector"> Scam Detection </fwb-navbar-link>
+        <fwb-navbar-link class="custom-link" link="/isitscam/report"> Discover </fwb-navbar-link>
       </fwb-navbar-collapse>
 
       <!-- <div class="flex items-center gap-4">
@@ -20,9 +20,9 @@
     </template>
     <template #right-side>
       <fwb-navbar-collapse :is-show-menu="isShowMenu">
-        <fwb-navbar-link class="custom-link" link="/login"> Log In </fwb-navbar-link>
+        <fwb-navbar-link class="custom-link" link="/isitscam/login"> Log In </fwb-navbar-link>
       </fwb-navbar-collapse>
-      <fwb-button href="/register" class="my-auto h-5 items-center bg-[#21629e]">
+      <fwb-button href="/isitscam/register" class="my-auto h-5 items-center bg-[#21629e]">
         <p class="text-white">Sign Up</p>
       </fwb-button>
     </template>

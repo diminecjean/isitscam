@@ -67,7 +67,7 @@
                   >Forgot password?</a
                 >
               </div>
-              <a href="/scam-detector"
+              <a href="/isitscam/scam-detector"
                 ><button
                   type="submit"
                   class="w-full text-black outline-1 outline-slate-800 "
@@ -78,7 +78,7 @@
               <p class="text-sm font-light text-gray-500 dark:text-gray-400">
                 Don’t have an account yet?
                 <a
-                  href="/register"
+                  href="/isitscam/register"
                   class="font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >Sign up</a
                 >
