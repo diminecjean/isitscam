@@ -115,9 +115,9 @@
     <h1 class=" mt-6 text-lg font-semibold">Discover Scams</h1>
     <div class="grid grid-col gap-4 mt-4 ml-14 mr-9">
       <div class="grid gap-4">
-        <scam-card v-for="(item, index) in scamData" :key="index" :count="item.count"
-          :title="item.title" :description="item.description" :image="item.image" :chips="item.chips"
-          @update:count="count = $event" @whatsappClicked="handleWhatsappClick" @emailClicked="handleEmailClick" />
+        <scam-card v-for="(item, index) in scamData" :key="index" :count="item.count" :title="item.title"
+          :description="item.description" :image="item.image" :chips="item.chips" @update:count="count = $event"
+          @whatsappClicked="handleWhatsappClick" @emailClicked="handleEmailClick" />
       </div>
     </div>
     <div class="wrap">
@@ -134,23 +134,16 @@
       </div>
     </div>
   </div>
-  <div class="flex h-full w-full top-0 left-0 absolute justify-center align-middle" v-if="whatsappClicked">
+  <div class="flex h-full w-full top-0 left-0 absolute justify-center align-middle z-100" v-if="whatsappClicked">
     <div
-      class="flex flex-row h-[90%]  justify-center align-middle items-center translate-y-[6%] z-20 rounded-3xl"
+      class="fixed shadow-lg  flex flex-row h-[90%] py-2 px-6 w-3/5 justify-center align-middle items-center translate-y-[6%] flex-wrap z-100 rounded-3xl"
       style="background-color: #eae6df" v-if="whatsappClicked">
       <whatsapp-game @whatsappClicked="handleWhatsappClick" />
-    </div>
-    <div class="flex h-full w-full top-0 left-0 absolute justify-center align-middle" v-if="whatsappClicked">
-      <div
-        class="flex flex-row h-[90%]  justify-center align-middle items-center translate-y-[6%] z-20 rounded-3xl"
-        style="background-color: #eae6df" v-if="whatsappClicked">
-        <whatsapp-game @whatsappClicked="handleWhatsappClick" />
-      </div>
     </div>
   </div>
   <div class="flex h-full w-full top-0 left-0 absolute justify-center align-middle" v-if="emailClicked">
     <div
-      class="flex flex-col h-4/5 w-3/5 justify-center align-middle items-center translate-y-[14%] flex-wrap z-20 rounded-3xl"
+      class="fixed shadow-lg  flex flex-col py-2 px-6 h-4/5 justify-center align-middle items-center translate-y-[14%] flex-wrap z-20 rounded-xl"
       style="background-color: #eae6df" v-if="emailClicked">
       <email-game @emailClicked="handleEmailClick" />
     </div>
