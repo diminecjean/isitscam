@@ -1,6 +1,11 @@
-# Vue 3 + Vite
+# isitScam
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Yes as the title mentioned, isit a scam ??!?! or not???? Worry no more, we'll figure that out for you. Just head over to our [site](https://diminecjean.github.io/isitscam/) (please open in laptop view) and paste whatever sussy links or screenshots to identify whether it is a scam or not.
+
+
+Note:
+- currently in prototype phase
+- responsive view is still in progress
 
 ## Recommended IDE Setup
 
