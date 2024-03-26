@@ -62,7 +62,7 @@ a {
   color: black;
 }
 .custom-navbar {
-  z-index: 1000;
+  z-index: 40;
   padding-left: 0;
   display: flex;
   padding-right: 0;
