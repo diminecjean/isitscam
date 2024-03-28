@@ -14,9 +14,9 @@
   </div>
   <div class="submit-data" v-if="showSubmit">
     <div class="flex flex-row">
-      <div class="flex flex-row items-center justify-center">
+      <div class="flex sm:flex-row flex-col items-center justify-center">
         <!-- Click to Upload -->
-        <div class="flex flex-col h-96 min-w-80w-80">
+        <div class="flex flex-col h-96 min-w-80">
           <div v-if="showUpload" class="flex items-center justify-center h-full w-full">
             <label for="dropzone-file"
               class="flex flex-col items-center justify-center w-80 h-full border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-gray-200 dark:bg-gray-50 hover:bg-gray-100 dark:border-gray-200 dark:hover:border-gray-100 dark:hover:bg-gray-100">
@@ -41,17 +41,17 @@
               <input id="dropzone-file" type="file" class="hidden" @change="handleFileUpload" />
             </label>
           </div>
-          <div class="w-full relative h-full" v-if="showPaste">
+          <div class="w-full relative h-full  " v-if="showPaste">
             <div id="imageUpload" contenteditable="true" v-if="showPaste" @paste="handlePaste"></div>
-            <div v-if="showPaste && !showPasteText" class="absolute top-20 w-full text-black">
+            <div v-if="showPaste && !showPasteText" class="absolute top-6 sm:top-20 w-full text-black">
               <p disabled="disabled">
-                or <strong>copy</strong> an image and <br /><strong>Crtl+V!</strong>
+                or <strong>copy</strong> an image and <br /><strong>Ctrl+V!</strong>
               </p>
             </div>
           </div>
         </div>
         <div>
-          <p class="text-gray-500 text-2xl mx-4">or</p>
+          <p class="text-gray-500 text-2xl m-4">or</p>
         </div>
         <!-- Write thoughts here -->
         <div class="flex items-center justify-center w-full h-full">
@@ -97,7 +97,7 @@
     </div>
   </div>
 
-  <div class="">
+  <div class="hidden sm:block">
     <img class="open-here arrow h-16 absolute right-10" src="../assets/arrow.png" />
     <div class="open-here arrow-text right-28 text-gray-900">
       <p class="">Open here for</p>
