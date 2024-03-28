@@ -1,13 +1,13 @@
 <template>
   <navbar />
   <div>
-    <div class="flex flex-row gap-6 mt-6">
-      <div class="rounded-2xl bg-gray-200 bg-opacity-50 py-6 px-auto">
-        <div class="flex flex-col chat-container">
+    <div class="flex md:flex-row flex-col gap-6 mt-6 justify-center align-middle">
+      <div class="flex flex-col chat-container flex-wrap h-lvh sm:h-full">
+        <div class="rounded-2xl bg-transparent sm:bg-gray-200 bg-opacity-50 py-6 px-auto w-11/12 sm:w-11/12">
           <div class="flex">
             <div class="px-4 w-full">
-              <div class="talk-bubble title tri-right round btm-left">
-                <h1 class="title">isit<span class="bold-title">scam</span></h1>
+              <div class="talk-bubble p-6 sm:p-8 title tri-right round btm-left">
+                <h1 class="title sm:text-lg text-xs">isit<span class="bold-title">scam</span></h1>
               </div>
               <div class="talk-bubble left tri-right round btm-left">
                 <div class="talktext">
@@ -20,7 +20,7 @@
               </div>
               <div class="flex items-center justify-end">
                 <div class="talk-bubble right tri-right round btm-right">
-                  <div class="talktex ">
+                  <div class="talktext ">
                     <p class="relative z-10">This is sus... 🤔</p>
                   </div>
                 </div>
@@ -56,8 +56,8 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col w-96">
-        <div class="flex flex-row w-96">
+      <div class="flex flex-col sm:w-96 w-10/12 p-2 justify-center align-middle">
+        <div class="flex flex-row justify-center align-middle items-center">
           <div v-if="showUpload" class="flex items-center justify-center w-full">
             <label for="dropzone-file"
               class="flex flex-col items-center justify-center w-full h-60 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-gray-200 dark:bg-gray-50 hover:bg-gray-100 dark:border-gray-200 dark:hover:border-gray-100 dark:hover:bg-gray-100">
@@ -146,7 +146,7 @@ fwb-file-input {
 
 .chat-container {
   /* margin: 10px; */
-  width: 460px;
+  max-width: 468px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -163,7 +163,7 @@ fwb-file-input {
 .talk-bubble.title {
   box-shadow: rgb(32, 156, 218) 0px 2px 10px;
   margin-bottom: 30px;
-  padding: 20px;
+  padding: 30px 16px;
   max-width: max-content;
   background-color: rgb(255, 255, 255);
 }
