@@ -1,6 +1,6 @@
 <template>
   <navbar />
-  <div class="container mx-auto px-4">
+  <div class="container mt-4 sm:mt-0 mx-auto px-4">
     <h1 class="text-4xl font-bold mb-4">What is Scam?</h1>
     <p class="mb-8">
       A scam is a term used to describe any fraudulent business or scheme that takes money or other goods from an
