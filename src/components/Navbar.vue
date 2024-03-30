@@ -7,7 +7,7 @@
     </template>
     <template #default="{ isShowMenu }">
       <fwb-navbar-collapse :is-show-menu="isShowMenu">
-        <fwb-navbar-link class="custom-link" link="/isitscam/report"> What is Scam? </fwb-navbar-link>
+        <fwb-navbar-link class="custom-link" link="/isitscam/what-is-scam"> What is Scam? </fwb-navbar-link>
         <fwb-navbar-link class="custom-link" link="/isitscam/scam-detector"> Scam Detection </fwb-navbar-link>
         <fwb-navbar-link class="custom-link" link="/isitscam/report"> Discover </fwb-navbar-link>
       </fwb-navbar-collapse>
