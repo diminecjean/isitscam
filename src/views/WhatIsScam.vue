@@ -1,6 +1,6 @@
 <template>
   <navbar />
-  <div class="container mt-4 sm:mt-0 mx-auto px-4">
+  <div class="container mt-5 sm:mt-0 mx-auto px-4">
     <h1 class="text-4xl font-bold mb-4">What is Scam?</h1>
     <p class="mb-8">
       A scam is a term used to describe any fraudulent business or scheme that takes money or other goods from an
@@ -9,7 +9,7 @@
     </p>
 
     <!-- Stats -->
-    <div class="flex flex-col sm:flex-row justify-center align-middle items-center gap-8 w-full">
+    <div class="flex flex-col sm:flex-row justify-center align-middle items-center gap-8 w-full my-5">
       <a class="flex flex-col border-solid border-2 p-4 border-[#102E4A] rounded-xl justify-center items-center max-h-48 text-[#102E4A] hover:bg-[#102E4A] hover:text-white"
         href="https://theedgemalaysia.com/article/pdrm-over-rm52-billion-lost-scams-two-years">
         <div>
