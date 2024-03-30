@@ -7,6 +7,7 @@ import "../node_modules/flowbite-vue/dist/index.css";
 
 // Router
 import router from "./router/index.js";
+import VueApexCharts from "vue3-apexcharts";
 
 // Components
 import ScamCard from "./components/ScamCard.vue";
@@ -22,4 +23,5 @@ app.component("whatsapp-game", WhatsAppGame);
 app.component("logo", Logo);
 app.component("navbar", Navbar);
 app.use(router);
+app.use(VueApexCharts);
 app.mount("#app");
